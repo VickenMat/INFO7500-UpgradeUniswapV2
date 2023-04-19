@@ -310,10 +310,10 @@
         }
       }
     },
-    "src/ZuniswapV2Factory.sol": {
+    "src/UniswapV2Factory.sol": {
       "lastModificationDate": 1681858520329,
       "contentHash": "d3c4e0017cb09da7f523177f9d80ae6a",
-      "sourceName": "src/ZuniswapV2Factory.sol",
+      "sourceName": "src/UniswapV2Factory.sol",
       "solcConfig": {
         "settings": {
           "optimizer": {
@@ -344,23 +344,23 @@
       },
       "imports": [
         "lib/solmate/src/tokens/ERC20.sol",
-        "src/ZuniswapV2Pair.sol",
-        "src/interfaces/IZuniswapV2Callee.sol",
-        "src/interfaces/IZuniswapV2Pair.sol",
+        "src/UniswapV2Pair.sol",
+        "src/interfaces/IUniswapV2Callee.sol",
+        "src/interfaces/IUniswapV2Pair.sol",
         "src/libraries/Math.sol",
         "src/libraries/UQ112x112.sol"
       ],
       "versionRequirement": "^0.8.10",
       "artifacts": {
-        "ZuniswapV2Factory": {
-          "0.8.10+commit.fc410830.Darwin.appleclang": "ZuniswapV2Factory.sol/ZuniswapV2Factory.json"
+        "UniswapV2Factory": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "UniswapV2Factory.sol/UniswapV2Factory.json"
         }
       }
     },
-    "src/ZuniswapV2Library.sol": {
+    "src/UniswapV2Library.sol": {
       "lastModificationDate": 1681858520329,
       "contentHash": "56ad2578f4372d76d19c5e6619cfb3c8",
-      "sourceName": "src/ZuniswapV2Library.sol",
+      "sourceName": "src/UniswapV2Library.sol",
       "solcConfig": {
         "settings": {
           "optimizer": {
@@ -391,24 +391,24 @@
       },
       "imports": [
         "lib/solmate/src/tokens/ERC20.sol",
-        "src/ZuniswapV2Pair.sol",
-        "src/interfaces/IZuniswapV2Callee.sol",
-        "src/interfaces/IZuniswapV2Factory.sol",
-        "src/interfaces/IZuniswapV2Pair.sol",
+        "src/UniswapV2Pair.sol",
+        "src/interfaces/IUniswapV2Callee.sol",
+        "src/interfaces/IUniswapV2Factory.sol",
+        "src/interfaces/IUniswapV2Pair.sol",
         "src/libraries/Math.sol",
         "src/libraries/UQ112x112.sol"
       ],
       "versionRequirement": "^0.8.10",
       "artifacts": {
-        "ZuniswapV2Library": {
-          "0.8.10+commit.fc410830.Darwin.appleclang": "ZuniswapV2Library.sol/ZuniswapV2Library.json"
+        "UniswapV2Library": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "UniswapV2Library.sol/UniswapV2Library.json"
         }
       }
     },
-    "src/ZuniswapV2Pair.sol": {
+    "src/UniswapV2Pair.sol": {
       "lastModificationDate": 1681858520329,
       "contentHash": "40bd502ab80900690734a11a07b915e4",
-      "sourceName": "src/ZuniswapV2Pair.sol",
+      "sourceName": "src/UniswapV2Pair.sol",
       "solcConfig": {
         "settings": {
           "optimizer": {
@@ -439,24 +439,24 @@
       },
       "imports": [
         "lib/solmate/src/tokens/ERC20.sol",
-        "src/interfaces/IZuniswapV2Callee.sol",
+        "src/interfaces/IUniswapV2Callee.sol",
         "src/libraries/Math.sol",
         "src/libraries/UQ112x112.sol"
       ],
       "versionRequirement": "^0.8.10",
       "artifacts": {
         "IERC20": {
-          "0.8.10+commit.fc410830.Darwin.appleclang": "ZuniswapV2Pair.sol/IERC20.json"
+          "0.8.10+commit.fc410830.Darwin.appleclang": "UniswapV2Pair.sol/IERC20.json"
         },
-        "ZuniswapV2Pair": {
-          "0.8.10+commit.fc410830.Darwin.appleclang": "ZuniswapV2Pair.sol/ZuniswapV2Pair.json"
+        "UniswapV2Pair": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "UniswapV2Pair.sol/UniswapV2Pair.json"
         }
       }
     },
-    "src/ZuniswapV2Router.sol": {
+    "src/UniswapV2Router.sol": {
       "lastModificationDate": 1681858520330,
       "contentHash": "2e598e423a2ccac18ae1217d6641170e",
-      "sourceName": "src/ZuniswapV2Router.sol",
+      "sourceName": "src/UniswapV2Router.sol",
       "solcConfig": {
         "settings": {
           "optimizer": {
@@ -487,25 +487,25 @@
       },
       "imports": [
         "lib/solmate/src/tokens/ERC20.sol",
-        "src/ZuniswapV2Library.sol",
-        "src/ZuniswapV2Pair.sol",
-        "src/interfaces/IZuniswapV2Callee.sol",
-        "src/interfaces/IZuniswapV2Factory.sol",
-        "src/interfaces/IZuniswapV2Pair.sol",
+        "src/UniswapV2Library.sol",
+        "src/UniswapV2Pair.sol",
+        "src/interfaces/IUniswapV2Callee.sol",
+        "src/interfaces/IUniswapV2Factory.sol",
+        "src/interfaces/IUniswapV2Pair.sol",
         "src/libraries/Math.sol",
         "src/libraries/UQ112x112.sol"
       ],
       "versionRequirement": "^0.8.10",
       "artifacts": {
-        "ZuniswapV2Router": {
-          "0.8.10+commit.fc410830.Darwin.appleclang": "ZuniswapV2Router.sol/ZuniswapV2Router.json"
+        "UniswapV2Router": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "UniswapV2Router.sol/UniswapV2Router.json"
         }
       }
     },
-    "src/interfaces/IZuniswapV2Callee.sol": {
+    "src/interfaces/IUniswapV2Callee.sol": {
       "lastModificationDate": 1681858520330,
       "contentHash": "ff23407f9099d18439ea3640a4255868",
-      "sourceName": "src/interfaces/IZuniswapV2Callee.sol",
+      "sourceName": "src/interfaces/IUniswapV2Callee.sol",
       "solcConfig": {
         "settings": {
           "optimizer": {
@@ -537,15 +537,15 @@
       "imports": [],
       "versionRequirement": "^0.8.10",
       "artifacts": {
-        "IZuniswapV2Callee": {
-          "0.8.10+commit.fc410830.Darwin.appleclang": "IZuniswapV2Callee.sol/IZuniswapV2Callee.json"
+        "IUniswapV2Callee": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "IUniswapV2Callee.sol/IUniswapV2Callee.json"
         }
       }
     },
-    "src/interfaces/IZuniswapV2Factory.sol": {
+    "src/interfaces/IUniswapV2Factory.sol": {
       "lastModificationDate": 1681858520330,
       "contentHash": "6555b108cd6a48f7c9dd17f4dd1278cf",
-      "sourceName": "src/interfaces/IZuniswapV2Factory.sol",
+      "sourceName": "src/interfaces/IUniswapV2Factory.sol",
       "solcConfig": {
         "settings": {
           "optimizer": {
@@ -577,15 +577,15 @@
       "imports": [],
       "versionRequirement": "^0.8.10",
       "artifacts": {
-        "IZuniswapV2Factory": {
-          "0.8.10+commit.fc410830.Darwin.appleclang": "IZuniswapV2Factory.sol/IZuniswapV2Factory.json"
+        "IUniswapV2Factory": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "IUniswapV2Factory.sol/IUniswapV2Factory.json"
         }
       }
     },
-    "src/interfaces/IZuniswapV2Pair.sol": {
+    "src/interfaces/IUniswapV2Pair.sol": {
       "lastModificationDate": 1681858520330,
       "contentHash": "4130111b0dd927ce96831fda84d45117",
-      "sourceName": "src/interfaces/IZuniswapV2Pair.sol",
+      "sourceName": "src/interfaces/IUniswapV2Pair.sol",
       "solcConfig": {
         "settings": {
           "optimizer": {
@@ -617,8 +617,8 @@
       "imports": [],
       "versionRequirement": "^0.8.10",
       "artifacts": {
-        "IZuniswapV2Pair": {
-          "0.8.10+commit.fc410830.Darwin.appleclang": "IZuniswapV2Pair.sol/IZuniswapV2Pair.json"
+        "IUniswapV2Pair": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "IUniswapV2Pair.sol/IUniswapV2Pair.json"
         }
       }
     },
@@ -702,10 +702,10 @@
         }
       }
     },
-    "test/ZuniswapV2Factory.t.sol": {
+    "test/UniswapV2Factory.t.sol": {
       "lastModificationDate": 1681858520330,
       "contentHash": "b2f4a3e3ff4cf9444dcee77cb4fa1bc1",
-      "sourceName": "test/ZuniswapV2Factory.t.sol",
+      "sourceName": "test/UniswapV2Factory.t.sol",
       "solcConfig": {
         "settings": {
           "optimizer": {
@@ -742,25 +742,25 @@
         "lib/forge-std/src/console.sol",
         "lib/forge-std/src/console2.sol",
         "lib/solmate/src/tokens/ERC20.sol",
-        "src/ZuniswapV2Factory.sol",
-        "src/ZuniswapV2Pair.sol",
-        "src/interfaces/IZuniswapV2Callee.sol",
-        "src/interfaces/IZuniswapV2Pair.sol",
+        "src/UniswapV2Factory.sol",
+        "src/UniswapV2Pair.sol",
+        "src/interfaces/IUniswapV2Callee.sol",
+        "src/interfaces/IUniswapV2Pair.sol",
         "src/libraries/Math.sol",
         "src/libraries/UQ112x112.sol",
         "test/mocks/ERC20Mintable.sol"
       ],
       "versionRequirement": "^0.8.10",
       "artifacts": {
-        "ZuniswapV2FactoryTest": {
-          "0.8.10+commit.fc410830.Darwin.appleclang": "ZuniswapV2Factory.t.sol/ZuniswapV2FactoryTest.json"
+        "UniswapV2FactoryTest": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "UniswapV2Factory.t.sol/UniswapV2FactoryTest.json"
         }
       }
     },
-    "test/ZuniswapV2Library.t.sol": {
+    "test/UniswapV2Library.t.sol": {
       "lastModificationDate": 1681858520331,
       "contentHash": "5cab1389fabe934f116ac59b25e3e1cb",
-      "sourceName": "test/ZuniswapV2Library.t.sol",
+      "sourceName": "test/UniswapV2Library.t.sol",
       "solcConfig": {
         "settings": {
           "optimizer": {
@@ -797,27 +797,27 @@
         "lib/forge-std/src/console.sol",
         "lib/forge-std/src/console2.sol",
         "lib/solmate/src/tokens/ERC20.sol",
-        "src/ZuniswapV2Factory.sol",
-        "src/ZuniswapV2Library.sol",
-        "src/ZuniswapV2Pair.sol",
-        "src/interfaces/IZuniswapV2Callee.sol",
-        "src/interfaces/IZuniswapV2Factory.sol",
-        "src/interfaces/IZuniswapV2Pair.sol",
+        "src/UniswapV2Factory.sol",
+        "src/UniswapV2Library.sol",
+        "src/UniswapV2Pair.sol",
+        "src/interfaces/IUniswapV2Callee.sol",
+        "src/interfaces/IUniswapV2Factory.sol",
+        "src/interfaces/IUniswapV2Pair.sol",
         "src/libraries/Math.sol",
         "src/libraries/UQ112x112.sol",
         "test/mocks/ERC20Mintable.sol"
       ],
       "versionRequirement": "^0.8.10",
       "artifacts": {
-        "ZuniswapV2LibraryTest": {
-          "0.8.10+commit.fc410830.Darwin.appleclang": "ZuniswapV2Library.t.sol/ZuniswapV2LibraryTest.json"
+        "UniswapV2LibraryTest": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "UniswapV2Library.t.sol/UniswapV2LibraryTest.json"
         }
       }
     },
-    "test/ZuniswapV2Pair.t.sol": {
+    "test/UniswapV2Pair.t.sol": {
       "lastModificationDate": 1681858520331,
       "contentHash": "1522bf1c30af906b436bff9f8507afc4",
-      "sourceName": "test/ZuniswapV2Pair.t.sol",
+      "sourceName": "test/UniswapV2Pair.t.sol",
       "solcConfig": {
         "settings": {
           "optimizer": {
@@ -854,10 +854,10 @@
         "lib/forge-std/src/console.sol",
         "lib/forge-std/src/console2.sol",
         "lib/solmate/src/tokens/ERC20.sol",
-        "src/ZuniswapV2Factory.sol",
-        "src/ZuniswapV2Pair.sol",
-        "src/interfaces/IZuniswapV2Callee.sol",
-        "src/interfaces/IZuniswapV2Pair.sol",
+        "src/UniswapV2Factory.sol",
+        "src/UniswapV2Pair.sol",
+        "src/interfaces/IUniswapV2Callee.sol",
+        "src/interfaces/IUniswapV2Pair.sol",
         "src/libraries/Math.sol",
         "src/libraries/UQ112x112.sol",
         "test/mocks/ERC20Mintable.sol"
@@ -865,20 +865,20 @@
       "versionRequirement": "^0.8.10",
       "artifacts": {
         "Flashloaner": {
-          "0.8.10+commit.fc410830.Darwin.appleclang": "ZuniswapV2Pair.t.sol/Flashloaner.json"
+          "0.8.10+commit.fc410830.Darwin.appleclang": "UniswapV2Pair.t.sol/Flashloaner.json"
         },
         "TestUser": {
-          "0.8.10+commit.fc410830.Darwin.appleclang": "ZuniswapV2Pair.t.sol/TestUser.json"
+          "0.8.10+commit.fc410830.Darwin.appleclang": "UniswapV2Pair.t.sol/TestUser.json"
         },
-        "ZuniswapV2PairTest": {
-          "0.8.10+commit.fc410830.Darwin.appleclang": "ZuniswapV2Pair.t.sol/ZuniswapV2PairTest.json"
+        "UniswapV2PairTest": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "UniswapV2Pair.t.sol/UniswapV2PairTest.json"
         }
       }
     },
-    "test/ZuniswapV2Router.t.sol": {
+    "test/UniswapV2Router.t.sol": {
       "lastModificationDate": 1681858520331,
       "contentHash": "98ab24f2082f3d72fa1401559893fcb9",
-      "sourceName": "test/ZuniswapV2Router.t.sol",
+      "sourceName": "test/UniswapV2Router.t.sol",
       "solcConfig": {
         "settings": {
           "optimizer": {
@@ -915,21 +915,21 @@
         "lib/forge-std/src/console.sol",
         "lib/forge-std/src/console2.sol",
         "lib/solmate/src/tokens/ERC20.sol",
-        "src/ZuniswapV2Factory.sol",
-        "src/ZuniswapV2Library.sol",
-        "src/ZuniswapV2Pair.sol",
-        "src/ZuniswapV2Router.sol",
-        "src/interfaces/IZuniswapV2Callee.sol",
-        "src/interfaces/IZuniswapV2Factory.sol",
-        "src/interfaces/IZuniswapV2Pair.sol",
+        "src/UniswapV2Factory.sol",
+        "src/UniswapV2Library.sol",
+        "src/UniswapV2Pair.sol",
+        "src/UniswapV2Router.sol",
+        "src/interfaces/IUniswapV2Callee.sol",
+        "src/interfaces/IUniswapV2Factory.sol",
+        "src/interfaces/IUniswapV2Pair.sol",
         "src/libraries/Math.sol",
         "src/libraries/UQ112x112.sol",
         "test/mocks/ERC20Mintable.sol"
       ],
       "versionRequirement": "^0.8.10",
       "artifacts": {
-        "ZuniswapV2RouterTest": {
-          "0.8.10+commit.fc410830.Darwin.appleclang": "ZuniswapV2Router.t.sol/ZuniswapV2RouterTest.json"
+        "UniswapV2RouterTest": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "UniswapV2Router.t.sol/UniswapV2RouterTest.json"
         }
       }
     },
