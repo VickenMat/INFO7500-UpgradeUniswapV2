@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: Unlicense
-pragma solidity ^0.8.10;
+pragma solidity >=0.8.10;
 
 import "./interfaces/UniswapV2Factory.sol";
 import "./interfaces/UniswapV2Pair.sol";
