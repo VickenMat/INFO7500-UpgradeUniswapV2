@@ -5,19 +5,19 @@ import "forge-std/Test.sol";
 import "../src/UniswapV2Factory.sol";
 import "../src/UniswapV2Pair.sol";
 import "../src/libraries/UQ112x112.sol";
-import "./mocks/ERC20Mintable.sol";
+import "./mocks/MintERC20.sol";
 
 contract UniswapV2PairTest is Test {
-    ERC20Mintable token0;
-    ERC20Mintable token1;
+    MintERC20 token0;
+    MintERC20 token1;
     UniswapV2Pair pair;
     TestUser testUser;
 
     function setUp() public {
         testUser = new TestUser();
 
-        token0 = new ERC20Mintable("Token A", "TKNA");
-        token1 = new ERC20Mintable("Token B", "TKNB");
+        token0 = new MintERC20("Token A", "TKNA");
+        token1 = new MintERC20("Token B", "TKNB");
 
         UniswapV2Factory factory = new UniswapV2Factory();
         address pairAddress = factory.createPair(

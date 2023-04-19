@@ -5,23 +5,23 @@ import "forge-std/Test.sol";
 import "../src/UniswapV2Factory.sol";
 import "../src/UniswapV2Pair.sol";
 import "../src/UniswapV2Router.sol";
-import "./mocks/ERC20Mintable.sol";
+import "./mocks/MintERC20.sol";
 
 contract UniswapV2RouterTest is Test {
     UniswapV2Factory factory;
     UniswapV2Router router;
 
-    ERC20Mintable tokenA;
-    ERC20Mintable tokenB;
-    ERC20Mintable tokenC;
+    MintERC20 tokenA;
+    MintERC20 tokenB;
+    MintERC20 tokenC;
 
     function setUp() public {
         factory = new UniswapV2Factory();
         router = new UniswapV2Router(address(factory));
 
-        tokenA = new ERC20Mintable("Token A", "TKNA");
-        tokenB = new ERC20Mintable("Token B", "TKNB");
-        tokenC = new ERC20Mintable("Token C", "TKNC");
+        tokenA = new MintERC20("Token A", "TKNA");
+        tokenB = new MintERC20("Token B", "TKNB");
+        tokenC = new MintERC20("Token C", "TKNC");
 
         tokenA.mint(20 ether, address(this));
         tokenB.mint(20 ether, address(this));

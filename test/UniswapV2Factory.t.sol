@@ -4,23 +4,23 @@ pragma solidity >=0.8.10;
 import "forge-std/Test.sol";
 import "../src/UniswapV2Factory.sol";
 import "../src/UniswapV2Pair.sol";
-import "./mocks/ERC20Mintable.sol";
+import "./mocks/MintERC20.sol";
 
 contract UniswapV2FactoryTest is Test {
     UniswapV2Factory factory;
 
-    ERC20Mintable token0;
-    ERC20Mintable token1;
-    ERC20Mintable token2;
-    ERC20Mintable token3;
+    MintERC20 token0;
+    MintERC20 token1;
+    MintERC20 token2;
+    MintERC20 token3;
 
     function setUp() public {
         factory = new UniswapV2Factory();
 
-        token0 = new ERC20Mintable("Token A", "TKNA");
-        token1 = new ERC20Mintable("Token B", "TKNB");
-        token2 = new ERC20Mintable("Token C", "TKNC");
-        token3 = new ERC20Mintable("Token D", "TKND");
+        token0 = new MintERC20("Token A", "TKNA");
+        token1 = new MintERC20("Token B", "TKNB");
+        token2 = new MintERC20("Token C", "TKNC");
+        token3 = new MintERC20("Token D", "TKND");
     }
 
     function encodeError(
