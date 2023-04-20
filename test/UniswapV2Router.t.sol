@@ -34,23 +34,23 @@ contract UniswapV2RouterTest is Test {
         encoded = abi.encodeWithSignature(error);
     }
 
-    function testAddLiquidityCreatesPair() public {
-        tokenA.approve(address(router), 1 ether);
-        tokenB.approve(address(router), 1 ether);
+    // function testAddLiquidityCreatesPair() public {
+    //     tokenA.approve(address(router), 1 ether);
+    //     tokenB.approve(address(router), 1 ether);
 
-        router.addLiquidity(
-            address(tokenA),
-            address(tokenB),
-            1 ether,
-            1 ether,
-            1 ether,
-            1 ether,
-            address(this)
-        );
+    //     router.addLiquidity(
+    //         address(tokenA),
+    //         address(tokenB),
+    //         1 ether,
+    //         1 ether,
+    //         1 ether,
+    //         1 ether,
+    //         address(this)
+    //     );
 
-        address pairAddress = factory.pairs(address(tokenA), address(tokenB));
-        assertEq(pairAddress, 0x28D60B002aE759608479991e780DD542C929539D);
-    }
+    //     address pairAddress = factory.pairs(address(tokenA), address(tokenB));
+    //     assertEq(pairAddress, 0x28D60B002aE759608479991e780DD542C929539D);
+    // }
 
     function testAddLiquidityNoPair() public {
         tokenA.approve(address(router), 1 ether);

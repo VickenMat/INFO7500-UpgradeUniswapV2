@@ -311,8 +311,8 @@
       }
     },
     "src/UniswapV2Factory.sol": {
-      "lastModificationDate": 1681858520329,
-      "contentHash": "d3c4e0017cb09da7f523177f9d80ae6a",
+      "lastModificationDate": 1681947650485,
+      "contentHash": "078f259c82e87cab7059604dff3fdf0d",
       "sourceName": "src/UniswapV2Factory.sol",
       "solcConfig": {
         "settings": {
@@ -345,12 +345,12 @@
       "imports": [
         "lib/solmate/src/tokens/ERC20.sol",
         "src/UniswapV2Pair.sol",
-        "src/interfaces/IUniswapV2Callee.sol",
-        "src/interfaces/IUniswapV2Pair.sol",
+        "src/interfaces/UniswapV2Callee.sol",
+        "src/interfaces/UniswapV2Pair.sol",
         "src/libraries/Math.sol",
         "src/libraries/UQ112x112.sol"
       ],
-      "versionRequirement": "^0.8.10",
+      "versionRequirement": ">=0.8.10",
       "artifacts": {
         "UniswapV2Factory": {
           "0.8.10+commit.fc410830.Darwin.appleclang": "UniswapV2Factory.sol/UniswapV2Factory.json"
@@ -358,8 +358,8 @@
       }
     },
     "src/UniswapV2Library.sol": {
-      "lastModificationDate": 1681858520329,
-      "contentHash": "56ad2578f4372d76d19c5e6619cfb3c8",
+      "lastModificationDate": 1681947644697,
+      "contentHash": "de8244d768c7b530e4f09e8b051ffa10",
       "sourceName": "src/UniswapV2Library.sol",
       "solcConfig": {
         "settings": {
@@ -392,13 +392,13 @@
       "imports": [
         "lib/solmate/src/tokens/ERC20.sol",
         "src/UniswapV2Pair.sol",
-        "src/interfaces/IUniswapV2Callee.sol",
-        "src/interfaces/IUniswapV2Factory.sol",
-        "src/interfaces/IUniswapV2Pair.sol",
+        "src/interfaces/UniswapV2Callee.sol",
+        "src/interfaces/UniswapV2Factory.sol",
+        "src/interfaces/UniswapV2Pair.sol",
         "src/libraries/Math.sol",
         "src/libraries/UQ112x112.sol"
       ],
-      "versionRequirement": "^0.8.10",
+      "versionRequirement": ">=0.8.10",
       "artifacts": {
         "UniswapV2Library": {
           "0.8.10+commit.fc410830.Darwin.appleclang": "UniswapV2Library.sol/UniswapV2Library.json"
@@ -406,8 +406,8 @@
       }
     },
     "src/UniswapV2Pair.sol": {
-      "lastModificationDate": 1681858520329,
-      "contentHash": "40bd502ab80900690734a11a07b915e4",
+      "lastModificationDate": 1681947637740,
+      "contentHash": "356686d852632ff488a4a0363e3c7c7e",
       "sourceName": "src/UniswapV2Pair.sol",
       "solcConfig": {
         "settings": {
@@ -439,11 +439,11 @@
       },
       "imports": [
         "lib/solmate/src/tokens/ERC20.sol",
-        "src/interfaces/IUniswapV2Callee.sol",
+        "src/interfaces/UniswapV2Callee.sol",
         "src/libraries/Math.sol",
         "src/libraries/UQ112x112.sol"
       ],
-      "versionRequirement": "^0.8.10",
+      "versionRequirement": ">=0.8.10",
       "artifacts": {
         "IERC20": {
           "0.8.10+commit.fc410830.Darwin.appleclang": "UniswapV2Pair.sol/IERC20.json"
@@ -454,8 +454,8 @@
       }
     },
     "src/UniswapV2Router.sol": {
-      "lastModificationDate": 1681858520330,
-      "contentHash": "2e598e423a2ccac18ae1217d6641170e",
+      "lastModificationDate": 1681947633429,
+      "contentHash": "4af3d88851ee19847ef0f7440382c0a3",
       "sourceName": "src/UniswapV2Router.sol",
       "solcConfig": {
         "settings": {
@@ -489,23 +489,23 @@
         "lib/solmate/src/tokens/ERC20.sol",
         "src/UniswapV2Library.sol",
         "src/UniswapV2Pair.sol",
-        "src/interfaces/IUniswapV2Callee.sol",
-        "src/interfaces/IUniswapV2Factory.sol",
-        "src/interfaces/IUniswapV2Pair.sol",
+        "src/interfaces/UniswapV2Callee.sol",
+        "src/interfaces/UniswapV2Factory.sol",
+        "src/interfaces/UniswapV2Pair.sol",
         "src/libraries/Math.sol",
         "src/libraries/UQ112x112.sol"
       ],
-      "versionRequirement": "^0.8.10",
+      "versionRequirement": ">=0.8.10",
       "artifacts": {
         "UniswapV2Router": {
           "0.8.10+commit.fc410830.Darwin.appleclang": "UniswapV2Router.sol/UniswapV2Router.json"
         }
       }
     },
-    "src/interfaces/IUniswapV2Callee.sol": {
-      "lastModificationDate": 1681858520330,
-      "contentHash": "ff23407f9099d18439ea3640a4255868",
-      "sourceName": "src/interfaces/IUniswapV2Callee.sol",
+    "src/interfaces/UniswapV2Callee.sol": {
+      "lastModificationDate": 1681947584994,
+      "contentHash": "65b497c12c621c6635dee63ae94e9480",
+      "sourceName": "src/interfaces/UniswapV2Callee.sol",
       "solcConfig": {
         "settings": {
           "optimizer": {
@@ -535,17 +535,17 @@
         }
       },
       "imports": [],
-      "versionRequirement": "^0.8.10",
+      "versionRequirement": ">=0.8.10",
       "artifacts": {
         "IUniswapV2Callee": {
-          "0.8.10+commit.fc410830.Darwin.appleclang": "IUniswapV2Callee.sol/IUniswapV2Callee.json"
+          "0.8.10+commit.fc410830.Darwin.appleclang": "UniswapV2Callee.sol/IUniswapV2Callee.json"
         }
       }
     },
-    "src/interfaces/IUniswapV2Factory.sol": {
-      "lastModificationDate": 1681858520330,
-      "contentHash": "6555b108cd6a48f7c9dd17f4dd1278cf",
-      "sourceName": "src/interfaces/IUniswapV2Factory.sol",
+    "src/interfaces/UniswapV2Factory.sol": {
+      "lastModificationDate": 1681947580529,
+      "contentHash": "04d9da3cba30f84b400b42b0320e0023",
+      "sourceName": "src/interfaces/UniswapV2Factory.sol",
       "solcConfig": {
         "settings": {
           "optimizer": {
@@ -575,17 +575,17 @@
         }
       },
       "imports": [],
-      "versionRequirement": "^0.8.10",
+      "versionRequirement": ">=0.8.10",
       "artifacts": {
         "IUniswapV2Factory": {
-          "0.8.10+commit.fc410830.Darwin.appleclang": "IUniswapV2Factory.sol/IUniswapV2Factory.json"
+          "0.8.10+commit.fc410830.Darwin.appleclang": "UniswapV2Factory.sol/IUniswapV2Factory.json"
         }
       }
     },
-    "src/interfaces/IUniswapV2Pair.sol": {
-      "lastModificationDate": 1681858520330,
-      "contentHash": "4130111b0dd927ce96831fda84d45117",
-      "sourceName": "src/interfaces/IUniswapV2Pair.sol",
+    "src/interfaces/UniswapV2Pair.sol": {
+      "lastModificationDate": 1681947574889,
+      "contentHash": "e3f0b9fbf775b03c6a452aef4dc3b83b",
+      "sourceName": "src/interfaces/UniswapV2Pair.sol",
       "solcConfig": {
         "settings": {
           "optimizer": {
@@ -615,16 +615,16 @@
         }
       },
       "imports": [],
-      "versionRequirement": "^0.8.10",
+      "versionRequirement": ">=0.8.10",
       "artifacts": {
         "IUniswapV2Pair": {
-          "0.8.10+commit.fc410830.Darwin.appleclang": "IUniswapV2Pair.sol/IUniswapV2Pair.json"
+          "0.8.10+commit.fc410830.Darwin.appleclang": "UniswapV2Pair.sol/IUniswapV2Pair.json"
         }
       }
     },
     "src/libraries/Math.sol": {
-      "lastModificationDate": 1681858520330,
-      "contentHash": "49c26633475fe013557e77e886a03ba1",
+      "lastModificationDate": 1681947612579,
+      "contentHash": "c229dac04cb6807caadcd0990304efba",
       "sourceName": "src/libraries/Math.sol",
       "solcConfig": {
         "settings": {
@@ -655,7 +655,7 @@
         }
       },
       "imports": [],
-      "versionRequirement": "^0.8.10",
+      "versionRequirement": ">=0.8.10",
       "artifacts": {
         "Math": {
           "0.8.10+commit.fc410830.Darwin.appleclang": "Math.sol/Math.json"
@@ -663,8 +663,8 @@
       }
     },
     "src/libraries/UQ112x112.sol": {
-      "lastModificationDate": 1681858520330,
-      "contentHash": "a9d5165872ab8a748f32b6144ca4396f",
+      "lastModificationDate": 1681947608917,
+      "contentHash": "9a2ad443253c2ee89f9752c913bcd0ed",
       "sourceName": "src/libraries/UQ112x112.sol",
       "solcConfig": {
         "settings": {
@@ -695,7 +695,7 @@
         }
       },
       "imports": [],
-      "versionRequirement": "^0.8.10",
+      "versionRequirement": ">=0.8.10",
       "artifacts": {
         "UQ112x112": {
           "0.8.10+commit.fc410830.Darwin.appleclang": "UQ112x112.sol/UQ112x112.json"
@@ -703,8 +703,8 @@
       }
     },
     "test/UniswapV2Factory.t.sol": {
-      "lastModificationDate": 1681858520330,
-      "contentHash": "b2f4a3e3ff4cf9444dcee77cb4fa1bc1",
+      "lastModificationDate": 1681948111331,
+      "contentHash": "78e066e848baa7907518f086d362ca84",
       "sourceName": "test/UniswapV2Factory.t.sol",
       "solcConfig": {
         "settings": {
@@ -744,13 +744,13 @@
         "lib/solmate/src/tokens/ERC20.sol",
         "src/UniswapV2Factory.sol",
         "src/UniswapV2Pair.sol",
-        "src/interfaces/IUniswapV2Callee.sol",
-        "src/interfaces/IUniswapV2Pair.sol",
+        "src/interfaces/UniswapV2Callee.sol",
+        "src/interfaces/UniswapV2Pair.sol",
         "src/libraries/Math.sol",
         "src/libraries/UQ112x112.sol",
-        "test/mocks/ERC20Mintable.sol"
+        "test/mocks/MintERC20.sol"
       ],
-      "versionRequirement": "^0.8.10",
+      "versionRequirement": ">=0.8.10",
       "artifacts": {
         "UniswapV2FactoryTest": {
           "0.8.10+commit.fc410830.Darwin.appleclang": "UniswapV2Factory.t.sol/UniswapV2FactoryTest.json"
@@ -758,8 +758,8 @@
       }
     },
     "test/UniswapV2Library.t.sol": {
-      "lastModificationDate": 1681858520331,
-      "contentHash": "5cab1389fabe934f116ac59b25e3e1cb",
+      "lastModificationDate": 1682014964336,
+      "contentHash": "7fb3d8afbd0394a415f3e18a6716b21c",
       "sourceName": "test/UniswapV2Library.t.sol",
       "solcConfig": {
         "settings": {
@@ -800,14 +800,14 @@
         "src/UniswapV2Factory.sol",
         "src/UniswapV2Library.sol",
         "src/UniswapV2Pair.sol",
-        "src/interfaces/IUniswapV2Callee.sol",
-        "src/interfaces/IUniswapV2Factory.sol",
-        "src/interfaces/IUniswapV2Pair.sol",
+        "src/interfaces/UniswapV2Callee.sol",
+        "src/interfaces/UniswapV2Factory.sol",
+        "src/interfaces/UniswapV2Pair.sol",
         "src/libraries/Math.sol",
         "src/libraries/UQ112x112.sol",
-        "test/mocks/ERC20Mintable.sol"
+        "test/mocks/MintERC20.sol"
       ],
-      "versionRequirement": "^0.8.10",
+      "versionRequirement": ">=0.8.10",
       "artifacts": {
         "UniswapV2LibraryTest": {
           "0.8.10+commit.fc410830.Darwin.appleclang": "UniswapV2Library.t.sol/UniswapV2LibraryTest.json"
@@ -815,8 +815,8 @@
       }
     },
     "test/UniswapV2Pair.t.sol": {
-      "lastModificationDate": 1681858520331,
-      "contentHash": "1522bf1c30af906b436bff9f8507afc4",
+      "lastModificationDate": 1681948128672,
+      "contentHash": "7a7962964d1c48e5749e18083ca09387",
       "sourceName": "test/UniswapV2Pair.t.sol",
       "solcConfig": {
         "settings": {
@@ -856,13 +856,13 @@
         "lib/solmate/src/tokens/ERC20.sol",
         "src/UniswapV2Factory.sol",
         "src/UniswapV2Pair.sol",
-        "src/interfaces/IUniswapV2Callee.sol",
-        "src/interfaces/IUniswapV2Pair.sol",
+        "src/interfaces/UniswapV2Callee.sol",
+        "src/interfaces/UniswapV2Pair.sol",
         "src/libraries/Math.sol",
         "src/libraries/UQ112x112.sol",
-        "test/mocks/ERC20Mintable.sol"
+        "test/mocks/MintERC20.sol"
       ],
-      "versionRequirement": "^0.8.10",
+      "versionRequirement": ">=0.8.10",
       "artifacts": {
         "Flashloaner": {
           "0.8.10+commit.fc410830.Darwin.appleclang": "UniswapV2Pair.t.sol/Flashloaner.json"
@@ -876,8 +876,8 @@
       }
     },
     "test/UniswapV2Router.t.sol": {
-      "lastModificationDate": 1681858520331,
-      "contentHash": "98ab24f2082f3d72fa1401559893fcb9",
+      "lastModificationDate": 1682014991486,
+      "contentHash": "7405c32aafa2eb601f17f07b40ad2e8b",
       "sourceName": "test/UniswapV2Router.t.sol",
       "solcConfig": {
         "settings": {
@@ -919,24 +919,24 @@
         "src/UniswapV2Library.sol",
         "src/UniswapV2Pair.sol",
         "src/UniswapV2Router.sol",
-        "src/interfaces/IUniswapV2Callee.sol",
-        "src/interfaces/IUniswapV2Factory.sol",
-        "src/interfaces/IUniswapV2Pair.sol",
+        "src/interfaces/UniswapV2Callee.sol",
+        "src/interfaces/UniswapV2Factory.sol",
+        "src/interfaces/UniswapV2Pair.sol",
         "src/libraries/Math.sol",
         "src/libraries/UQ112x112.sol",
-        "test/mocks/ERC20Mintable.sol"
+        "test/mocks/MintERC20.sol"
       ],
-      "versionRequirement": "^0.8.10",
+      "versionRequirement": ">=0.8.10",
       "artifacts": {
         "UniswapV2RouterTest": {
           "0.8.10+commit.fc410830.Darwin.appleclang": "UniswapV2Router.t.sol/UniswapV2RouterTest.json"
         }
       }
     },
-    "test/mocks/ERC20Mintable.sol": {
-      "lastModificationDate": 1681858520331,
-      "contentHash": "9058df21041263cb23e3edb4910cec8e",
-      "sourceName": "test/mocks/ERC20Mintable.sol",
+    "test/mocks/MintERC20.sol": {
+      "lastModificationDate": 1681948155450,
+      "contentHash": "ea3e44c04cff6e6f06dce22779d720c0",
+      "sourceName": "test/mocks/MintERC20.sol",
       "solcConfig": {
         "settings": {
           "optimizer": {
@@ -968,10 +968,10 @@
       "imports": [
         "lib/solmate/src/tokens/ERC20.sol"
       ],
-      "versionRequirement": "^0.8.10",
+      "versionRequirement": ">=0.8.10",
       "artifacts": {
-        "ERC20Mintable": {
-          "0.8.10+commit.fc410830.Darwin.appleclang": "ERC20Mintable.sol/ERC20Mintable.json"
+        "MintERC20": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "MintERC20.sol/MintERC20.json"
         }
       }
     }
